@@ -1,0 +1,14 @@
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\bin\Debug\net6.0\CalculationNotationPolonaiseInverse.exe
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\bin\Debug\net6.0\CalculationNotationPolonaiseInverse.deps.json
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\bin\Debug\net6.0\CalculationNotationPolonaiseInverse.runtimeconfig.json
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\bin\Debug\net6.0\CalculationNotationPolonaiseInverse.dll
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\bin\Debug\net6.0\CalculationNotationPolonaiseInverse.pdb
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.AssemblyInfoInputs.cache
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.AssemblyInfo.cs
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.csproj.CoreCompileInputs.cache
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.dll
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\refint\CalculationNotationPolonaiseInverse.dll
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.pdb
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\CalculationNotationPolonaiseInverse.genruntimeconfig.cache
+C:\Users\enzod\Desktop\IUT\Année 2\Semestre 1\R3.02 - Dev. Efficace\CalculationNotationPolonaiseInverse\obj\Debug\net6.0\ref\CalculationNotationPolonaiseInverse.dll
