@@ -44,11 +44,6 @@ class RPNCalculator
 
     static double CalculateRPN(string input)
     {
-        if (input == null)
-        {
-            throw new ArgumentNullException(nameof(input));
-        }
-
         string[] tokens = input.Split(' ');
         Stack<double> stack = new Stack<double>();
 
