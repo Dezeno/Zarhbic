@@ -32,24 +32,18 @@ class RPNCalculator
             string expression = File.ReadAllText(filePath);
             return expression;
         }
-        catch (FileNotFoundException)
+        catch (FileNotFoundException ex)
         {
-            throw new Exception("Fichier non trouvé. Veuillez vérifier le chemin du fichier.");
+            throw new FileNotFoundException("Fichier non trouvé. Veuillez vérifier le chemin du fichier.", ex);
         }
-        catch (Exception)
+        catch (FileLoadException ex)
         {
-            throw new Exception("Erreur lors de la lecture du fichier.");
+            throw new FileLoadException("Erreur lors de la lecture du fichier.", ex);
         }
     }
 
     static double CalculateRPN(string input)
     {
-
-        if (input == null)
-        {
-            throw new ArgumentNullException(nameof(input));
-        }
-
         string[] tokens = input.Split(' ');
         Stack<double> stack = new Stack<double>();
 
@@ -63,7 +57,7 @@ class RPNCalculator
             {
                 if (stack.Count < 2)
                 {
-                    throw new Exception("Expression RPN invalide : Nombre insuffisant d'opérandes.");
+                    throw new ArgumentException("Expression RPN invalide : Nombre insuffisant d'opérandes.");
                 }
 
                 double operand2 = stack.Pop();
@@ -79,7 +73,7 @@ class RPNCalculator
         }
         else
         {
-            throw new Exception("Expression RPN invalide : Opérandes restantes après l'évaluation.");
+            throw new ArgumentException("Expression RPN invalide : Opérandes restantes après l'évaluation.");
         }
     }
 
@@ -100,10 +94,10 @@ class RPNCalculator
                 }
                 else
                 {
-                    throw new Exception("Erreur : Division par zéro.");
+                    throw new DivideByZeroException("Erreur : Division par zéro.");
                 }
             default:
-                throw new Exception("Erreur : Opérateur non pris en charge.");
+                throw new ArgumentException("Erreur : Opérateur non pris en charge.");
         }
     }
 }
